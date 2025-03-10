@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask App</title>
+</head>
+<body>
+    <h2>Flask App Interface</h2>
+    <button onclick="runPython()">Run Python Code</button>
+    <p id="output"></p>
+
+    <script>
+        function runPython() {
+            fetch('https://infinity-01oa.onrender.com/')
+            .then(response => response.text())
+            .then(data => document.getElementById("output").innerText = data)
+            .catch(error => console.error("Error:", error));
+        }
+    </script>
+</body>
+</html>
