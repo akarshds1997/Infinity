@@ -10,8 +10,8 @@ import sys
 app = Flask(__name__)
 
 # Telegram Bot Details
-TELEGRAM_TOKEN = "7940671062:AAHEMb7l7SlgBKf0ffgkNU5QS3gfEoTJfc8"
-CHAT_ID = "732675509"
+TELEGRAM_TOKEN = "79"
+CHAT_ID = "7"
 
 # Binance API URL
 BINANCE_URL = "https://api.binance.com/api/v3/klines"
